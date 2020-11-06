@@ -11,7 +11,7 @@ else:
     depth = 10
     max_digit = 0
 
-    while num / depth > 1:
+    while num / depth > 0.1:
 
         digit = (num % depth) // (10 ** (power - 1))
         if digit > max_digit:
